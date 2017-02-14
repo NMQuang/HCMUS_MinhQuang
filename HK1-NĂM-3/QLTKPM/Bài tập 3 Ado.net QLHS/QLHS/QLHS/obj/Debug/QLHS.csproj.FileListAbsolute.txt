@@ -1,0 +1,24 @@
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\bin\Debug\QLHS.exe.config
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\bin\Debug\QLHS.exe
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\bin\Debug\QLHS.pdb
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\bin\Debug\DevComponents.DotNetBar2.dll
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\bin\Debug\DevComponents.DotNetBar2.xml
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\obj\Debug\QLHS.csprojResolveAssemblyReference.cache
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\obj\Debug\QLHS.Form1.resources
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\obj\Debug\QLHS.csproj.GenerateResource.Cache
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\obj\Debug\QLHS.exe
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\obj\Debug\QLHS.pdb
+D:\HK1-NĂM 3\QLTKPM\QLHS\QLHS\obj\Debug\QLHS.HocSinh.resources
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\bin\Debug\QLHS.exe.config
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\obj\Debug\QLHS.exe
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\obj\Debug\QLHS.pdb
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\bin\Debug\QLHS.exe
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\bin\Debug\QLHS.pdb
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\bin\Debug\DevComponents.DotNetBar2.dll
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\bin\Debug\DevComponents.DotNetBar2.xml
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\obj\Debug\QLHS.csprojResolveAssemblyReference.cache
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\obj\Debug\QLHS.Form1.resources
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\obj\Debug\QLHS.HocSinh.resources
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\obj\Debug\QLHS.Properties.Resources.resources
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 Ado.net QLHS\QLHS\QLHS\obj\Debug\QLHS.csproj.GenerateResource.Cache

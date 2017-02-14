@@ -1,0 +1,35 @@
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\bin\Debug\FORM_DO_AN.exe.config
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\bin\Debug\FORM_DO_AN.exe
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\bin\Debug\FORM_DO_AN.pdb
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.csprojResolveAssemblyReference.cache
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.Properties.Resources.resources
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.csproj.GenerateResource.Cache
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.exe
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.pdb
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.Trang_chu.resources
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.Tra_cuu.resources
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.Chi.resources
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.Thong_ke.resources
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.Thu.resources
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.thanh_vien.resources
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.Thong_ke_nam.resources
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\FORM_DO_AN\obj\Debug\FORM_DO_AN.Thong_ke_thang.resources
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\bin\Debug\FORM_DO_AN.exe.config
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.exe
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.pdb
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\bin\Debug\FORM_DO_AN.exe
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\bin\Debug\FORM_DO_AN.pdb
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.csprojResolveAssemblyReference.cache
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.Chi.resources
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.thanh_vien.resources
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.Thong_ke.resources
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.Thong_ke_nam.resources
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.Thong_ke_thang.resources
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.Thu.resources
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.Trang_chu.resources
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.Properties.Resources.resources
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.Tra_cuu.resources
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.csproj.GenerateResource.Cache
+D:\HK1-NĂM 3\XML va UD\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\bin\Debug\FORM_DO_AN.exe.config
+D:\HK1-NĂM 3\XML va UD\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.exe
+D:\HK1-NĂM 3\XML va UD\DO_AN_CUOI_CUNG\SOURCE CODE\FORM_DO_AN\obj\Debug\FORM_DO_AN.pdb

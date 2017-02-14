@@ -1,0 +1,13 @@
+D:\HK1-NĂM 3\QLTKPM\Bài tập 6\QLSach\QLSach\bin\Debug\QLSach.exe.config
+D:\HK1-NĂM 3\QLTKPM\Bài tập 6\QLSach\QLSach\bin\Debug\QLSach.exe
+D:\HK1-NĂM 3\QLTKPM\Bài tập 6\QLSach\QLSach\bin\Debug\QLSach.pdb
+D:\HK1-NĂM 3\QLTKPM\Bài tập 6\QLSach\QLSach\bin\Debug\QLSach.exe.CodeAnalysisLog.xml
+D:\HK1-NĂM 3\QLTKPM\Bài tập 6\QLSach\QLSach\bin\Debug\QLSach.exe.lastcodeanalysissucceeded
+D:\HK1-NĂM 3\QLTKPM\Bài tập 6\QLSach\QLSach\obj\Debug\QLSach.csprojResolveAssemblyReference.cache
+D:\HK1-NĂM 3\QLTKPM\Bài tập 6\QLSach\QLSach\obj\Debug\QLSach.Properties.Resources.resources
+D:\HK1-NĂM 3\QLTKPM\Bài tập 6\QLSach\QLSach\obj\Debug\QLSach.csproj.GenerateResource.Cache
+D:\HK1-NĂM 3\QLTKPM\Bài tập 6\QLSach\QLSach\obj\Debug\QLSach.exe
+D:\HK1-NĂM 3\QLTKPM\Bài tập 6\QLSach\QLSach\obj\Debug\QLSach.pdb
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 layer - 1 tier\QLSach\QLSach\bin\Debug\QLSach.exe.config
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 layer - 1 tier\QLSach\QLSach\obj\Debug\QLSach.exe
+D:\HK1-NĂM 3\QLTKPM\Bài tập 3 layer - 1 tier\QLSach\QLSach\obj\Debug\QLSach.pdb

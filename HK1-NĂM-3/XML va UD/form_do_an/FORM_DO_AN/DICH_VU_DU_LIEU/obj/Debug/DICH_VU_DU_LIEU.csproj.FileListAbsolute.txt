@@ -1,0 +1,6 @@
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\DICH_VU_DU_LIEU\obj\Debug\DICH_VU_DU_LIEU.csprojResolveAssemblyReference.cache
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\DICH_VU_DU_LIEU\bin\DICH_VU_DU_LIEU.dll.config
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\DICH_VU_DU_LIEU\bin\DICH_VU_DU_LIEU.dll
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\DICH_VU_DU_LIEU\bin\DICH_VU_DU_LIEU.pdb
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\DICH_VU_DU_LIEU\obj\Debug\DICH_VU_DU_LIEU.dll
+D:\HK1-NĂM 3\XML va UD\form_do_an\FORM_DO_AN\DICH_VU_DU_LIEU\obj\Debug\DICH_VU_DU_LIEU.pdb

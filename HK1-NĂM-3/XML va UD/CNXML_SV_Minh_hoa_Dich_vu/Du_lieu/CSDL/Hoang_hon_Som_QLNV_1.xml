@@ -1,0 +1,424 @@
+<?xml version="1.0" standalone="yes"?>
+<Hoang_hon_Som_QLNV_1>
+  <xs:schema id="Hoang_hon_Som_QLNV_1" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Hoang_hon_Som_QLNV_1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="CHI_NHANH">
+            <xs:complexType>
+              <xs:attribute name="ID" msdata:AutoIncrement="true" type="xs:int" use="required" />
+              <xs:attribute name="Ten">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Dien_thoai">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Mail">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Dia_chi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="ID_CONG_TY" type="xs:int" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CONG_TY">
+            <xs:complexType>
+              <xs:attribute name="ID" msdata:AutoIncrement="true" type="xs:int" use="required" />
+              <xs:attribute name="Ten">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Dien_thoai">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Mail">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Dia_chi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Muc_luong_Toi_thieu" type="xs:int" />
+              <xs:attribute name="Tuoi_Toi_thieu" type="xs:int" />
+              <xs:attribute name="Tuoi_Toi_da" type="xs:int" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="DON_VI">
+            <xs:complexType>
+              <xs:attribute name="ID" msdata:AutoIncrement="true" type="xs:int" use="required" />
+              <xs:attribute name="Ten">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="ID_CHI_NHANH" type="xs:int" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="GIOI_TINH">
+            <xs:complexType>
+              <xs:attribute name="ID" msdata:AutoIncrement="true" type="xs:int" use="required" />
+              <xs:attribute name="Ten">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Ma_so">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="NHAN_VIEN">
+            <xs:complexType>
+              <xs:attribute name="ID" msdata:AutoIncrement="true" type="xs:int" use="required" />
+              <xs:attribute name="Ho_ten">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="ID_GIOI_TINH" type="xs:int" />
+              <xs:attribute name="CMND">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Ngay_sinh" type="xs:dateTime" />
+              <xs:attribute name="Muc_luong" type="xs:int" />
+              <xs:attribute name="Dien_thoai">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Mail">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Dia_chi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="ID_DON_VI" type="xs:int" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="NV">
+            <xs:complexType>
+              <xs:attribute name="ID" msdata:AutoIncrement="true" type="xs:int" use="required" />
+              <xs:attribute name="Ten_Dang_nhap">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Mat_khau">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="ID_NHAN_VIEN" type="xs:int" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="QLCN">
+            <xs:complexType>
+              <xs:attribute name="ID" msdata:AutoIncrement="true" type="xs:int" use="required" />
+              <xs:attribute name="Ten_Dang_nhap">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Mat_khau">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="ID_CHI_NHANH" type="xs:int" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="QLCT">
+            <xs:complexType>
+              <xs:attribute name="ID" msdata:AutoIncrement="true" type="xs:int" use="required" />
+              <xs:attribute name="Ten_Dang_nhap">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Mat_khau">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="ID_CONG_TY" type="xs:int" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="QLDV">
+            <xs:complexType>
+              <xs:attribute name="ID" msdata:AutoIncrement="true" type="xs:int" use="required" />
+              <xs:attribute name="Ten_Dang_nhap">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="Mat_khau">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="ID_DON_VI" type="xs:int" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//CHI_NHANH" />
+        <xs:field xpath="@ID" />
+      </xs:unique>
+      <xs:unique name="CONG_TY_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//CONG_TY" />
+        <xs:field xpath="@ID" />
+      </xs:unique>
+      <xs:unique name="DON_VI_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//DON_VI" />
+        <xs:field xpath="@ID" />
+      </xs:unique>
+      <xs:unique name="GIOI_TINH_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//GIOI_TINH" />
+        <xs:field xpath="@ID" />
+      </xs:unique>
+      <xs:unique name="NHAN_VIEN_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//NHAN_VIEN" />
+        <xs:field xpath="@ID" />
+      </xs:unique>
+      <xs:unique name="NV_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//NV" />
+        <xs:field xpath="@ID" />
+      </xs:unique>
+      <xs:unique name="QLCN_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//QLCN" />
+        <xs:field xpath="@ID" />
+      </xs:unique>
+      <xs:unique name="QLCT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//QLCT" />
+        <xs:field xpath="@ID" />
+      </xs:unique>
+      <xs:unique name="QLDV_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//QLDV" />
+        <xs:field xpath="@ID" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <CHI_NHANH ID="1" Ten="Chi nhánh A" Dien_thoai="08-83222542" Mail="hoanghomsomA@gmail.com" Dia_chi="11223 Trần hưng Đạo Q.1 TP HCM " ID_CONG_TY="1" />
+  <CHI_NHANH ID="2" Ten="Chi nhánh B" Dien_thoai="08-89999542" Mail="hoanghomsomB@gmail.com" Dia_chi="72000 Lê văn Sỉ TP HCM " ID_CONG_TY="1" />
+  <CONG_TY ID="1" Ten="Công ty Dịch vụ Hoàng hôn Sớm" Dien_thoai="08-83222145" Mail="hhsom2016@gmail.com" Dia_chi="11223 Trần hưng Đạo Q.1 TP HCM " Muc_luong_Toi_thieu="3500000" Tuoi_Toi_thieu="20" Tuoi_Toi_da="50" />
+  <DON_VI ID="1" Ten="Dịch thuật" ID_CHI_NHANH="1" />
+  <DON_VI ID="2" Ten="Đa năng" ID_CHI_NHANH="1" />
+  <DON_VI ID="3" Ten="Tư vấn du học 1" ID_CHI_NHANH="2" />
+  <DON_VI ID="4" Ten="Tư vấn du học 2" ID_CHI_NHANH="2" />
+  <DON_VI ID="5" Ten="Visa" ID_CHI_NHANH="2" />
+  <DON_VI ID="6" Ten="Đa năng" ID_CHI_NHANH="2" />
+  <GIOI_TINH ID="1" Ten="Nam" Ma_so="NAM" />
+  <GIOI_TINH ID="2" Ten="Nữ" Ma_so="NU" />
+  <GIOI_TINH ID="3" Ten="Khác" Ma_so="KHAC" />
+  <NHAN_VIEN ID="1" Ho_ten="Nguyễn thị bé Nhỏ" ID_GIOI_TINH="1" CMND="058810311" Ngay_sinh="1970-10-12T00:00:00+07:00" Muc_luong="7200000" Dien_thoai="0912579507" Mail="ntblon@gamil.com" Dia_chi="2115 Lê thị Riêng Tp.HCM" ID_DON_VI="1" />
+  <NHAN_VIEN ID="2" Ho_ten="Triệu thành thụy Trang" ID_GIOI_TINH="1" CMND="087581242" Ngay_sinh="1967-12-09T00:00:00+07:00" Muc_luong="6900000" Dien_thoai="0909271126" Mail="ttttrang@mrnhcmvn" Dia_chi="Nguyễn thị S Quận 3-TP. HCM" ID_DON_VI="1" />
+  <NHAN_VIEN ID="3" Ho_ten="Đặng văn Toàn" ID_GIOI_TINH="2" CMND="005875833" Ngay_sinh="1980-07-31T00:00:00+07:00" Muc_luong="6000000" Dien_thoai="0937767087" Mail="đvtoàn@mdavn" Dia_chi="Đinh văn E Quận 10-TP. HCM" ID_DON_VI="1" />
+  <NHAN_VIEN ID="4" Ho_ten="Bạch ngọc Đông" ID_GIOI_TINH="2" CMND="050560664" Ngay_sinh="1994-11-03T00:00:00+07:00" Muc_luong="7200000" Dien_thoai="0962278788" Mail="bnđông@mdahnvn" Dia_chi="Nhữ an J Quận 14-Vĩnh Long" ID_DON_VI="1" />
+  <NHAN_VIEN ID="5" Ho_ten="Chu ngọc sơn Hà" ID_GIOI_TINH="2" CMND="089403672" Ngay_sinh="1974-03-17T00:00:00+07:00" Muc_luong="7200000" Dien_thoai="0980791615" Mail="cnshà@mrnyahoovn" Dia_chi="Công thiện H Quận 12-TP. HCM" ID_DON_VI="1" />
+  <NHAN_VIEN ID="6" Ho_ten="Kiều bảo trầm Long" ID_GIOI_TINH="3" CMND="021284495" Ngay_sinh="1980-08-25T00:00:00+07:00" Muc_luong="10200000" Dien_thoai="0977132960" Mail="kbtlong@cscyahoovn" Dia_chi="Hoa tắc E Quận 7-TP. HCM" ID_DON_VI="1" />
+  <NHAN_VIEN ID="7" Ho_ten="Trang lê hải Liên" ID_GIOI_TINH="2" CMND="075105865" Ngay_sinh="1969-06-21T00:00:00+07:00" Muc_luong="6000000" Dien_thoai="0915225104" Mail="tlhliên@cscgmailvn" Dia_chi="Ngô phước H Quận 4-TP. HCM" ID_DON_VI="1" />
+  <NHAN_VIEN ID="8" Ho_ten="Đinh duy Táo" ID_GIOI_TINH="1" CMND="030672361" Ngay_sinh="1980-11-18T00:00:00+07:00" Muc_luong="3900000" Dien_thoai="0906765535" Mail="đdtáo@sptgmailcom" Dia_chi="Tô xuân O Quận 11-TP. HCM" ID_DON_VI="1" />
+  <NHAN_VIEN ID="9" Ho_ten="Nguyễn thành sơn Tài" ID_GIOI_TINH="2" CMND="034217173" Ngay_sinh="1992-06-02T00:00:00+07:00" Muc_luong="3900000" Dien_thoai="0954899800" Mail="ntstài@cschncom" Dia_chi="Hoa sơn C Quận 11-TP. HCM" ID_DON_VI="1" />
+  <NHAN_VIEN ID="10" Ho_ten="Bàng hửu sơn Hà" ID_GIOI_TINH="3" CMND="077287733" Ngay_sinh="1969-01-13T00:00:00+07:00" Muc_luong="7800000" Dien_thoai="0967405718" Mail="bhshà@gmailcom" Dia_chi="Nguyễn thị G Quận 8-TP. HCM" ID_DON_VI="1" />
+  <NHAN_VIEN ID="11" Ho_ten="Bành bùi Trúc" ID_GIOI_TINH="1" CMND="022647539" Ngay_sinh="1976-08-31T00:00:00+07:00" Muc_luong="6600000" Dien_thoai="0962511543" Mail="bbtrúc@alphtkgmailcom" Dia_chi="Phùng đình M Quận 4-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="12" Ho_ten="Trương sơn Giang" ID_GIOI_TINH="2" CMND="084240571" Ngay_sinh="1992-05-19T00:00:00+07:00" Muc_luong="9600000" Dien_thoai="0919264185" Mail="tsgiang@sptgmailvn" Dia_chi="Công quyết K Quận 13-Cần Thơ" ID_DON_VI="2" />
+  <NHAN_VIEN ID="13" Ho_ten="Lâm thị Ngoạn" ID_GIOI_TINH="2" CMND="079929244" Ngay_sinh="1976-09-23T00:00:00+07:00" Muc_luong="10200000" Dien_thoai="0948454423" Mail="ltngoạn@hcmvn" Dia_chi="Lý kiên A Quận 10-Vĩnh Long" ID_DON_VI="2" />
+  <NHAN_VIEN ID="14" Ho_ten="Liên lâm cẩm Thúy" ID_GIOI_TINH="1" CMND="059927332" Ngay_sinh="1972-01-07T00:00:00+07:00" Muc_luong="6600000" Dien_thoai="0900726307" Mail="llcthúy@mdahnvn" Dia_chi="Trần bùi N Quận 4-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="15" Ho_ten="Công gia Bình" ID_GIOI_TINH="3" CMND="072746409" Ngay_sinh="1970-03-01T00:00:00+07:00" Muc_luong="12000000" Dien_thoai="0948270003" Mail="cgbình@mdahnvn" Dia_chi="Hoa thành W Quận 14-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="16" Ho_ten="Phạm viết thụy Lan" ID_GIOI_TINH="1" CMND="030727096" Ngay_sinh="1970-03-24T00:00:00+07:00" Muc_luong="7200000" Dien_thoai="0992607646" Mail="pvtlan@mdahcmvn" Dia_chi="Trường triệu B Quận 3-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="17" Ho_ten="Lý văn Huy" ID_GIOI_TINH="1" CMND="098246366" Ngay_sinh="1989-07-09T00:00:00+07:00" Muc_luong="6900000" Dien_thoai="0997656141" Mail="lvhuy@yahoocom" Dia_chi="Công lâm C Quận 5-Long an" ID_DON_VI="2" />
+  <NHAN_VIEN ID="18" Ho_ten="Nguyễn bích Toàn" ID_GIOI_TINH="2" CMND="028445898" Ngay_sinh="1982-02-06T00:00:00+07:00" Muc_luong="5100000" Dien_thoai="0968071058" Mail="nbtoàn@euhcom" Dia_chi="Đặng bảo X Quận 2-Vĩnh Long" ID_DON_VI="2" />
+  <NHAN_VIEN ID="19" Ho_ten="Ôn duy Tần" ID_GIOI_TINH="2" CMND="051899830" Ngay_sinh="1966-05-29T00:00:00+07:00" Muc_luong="11700000" Dien_thoai="0921971642" Mail="ôdtần@euhvn" Dia_chi="Bành bảo K Quận 13-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="20" Ho_ten="Đổ thành Sơn" ID_GIOI_TINH="2" CMND="037467402" Ngay_sinh="1973-10-24T00:00:00+07:00" Muc_luong="11400000" Dien_thoai="0940082646" Mail="đtsơn@yahoocom" Dia_chi="Bạch đình M Quận 13-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="21" Ho_ten="Tô quyết Táo" ID_GIOI_TINH="3" CMND="021349460" Ngay_sinh="1983-06-19T00:00:00+07:00" Muc_luong="5400000" Dien_thoai="0938513030" Mail="tqtáo@euhvn" Dia_chi="Đổ thị D Quận 12-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="22" Ho_ten="Hoàng bích Tân" ID_GIOI_TINH="3" CMND="028869297" Ngay_sinh="1982-08-23T00:00:00+07:00" Muc_luong="8700000" Dien_thoai="0911513550" Mail="hbtân@cscgmailvn" Dia_chi="Hồ chiến P Quận 7-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="23" Ho_ten="Nhữ tiến Khoa" ID_GIOI_TINH="2" CMND="031343553" Ngay_sinh="1981-03-24T00:00:00+07:00" Muc_luong="6000000" Dien_thoai="0924258422" Mail="ntkhoa@mdahcmvn" Dia_chi="Nguyễn minh Q Quận 1-Đà nẳng" ID_DON_VI="2" />
+  <NHAN_VIEN ID="24" Ho_ten="Quách phước Nam" ID_GIOI_TINH="3" CMND="063206956" Ngay_sinh="1971-09-17T00:00:00+07:00" Muc_luong="6000000" Dien_thoai="0976257125" Mail="qpnam@spthnvn" Dia_chi="Trần xuân K Quận 9-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="25" Ho_ten="Kiều hửu nguyên Tấn" ID_GIOI_TINH="1" CMND="071302637" Ngay_sinh="1983-05-21T00:00:00+07:00" Muc_luong="5700000" Dien_thoai="0992189964" Mail="khntấn@euhgmailvn" Dia_chi="Trương viết J Quận 7-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="26" Ho_ten="Dương phúc hiền trúc" ID_GIOI_TINH="1" CMND="092724407" Ngay_sinh="1980-04-22T00:00:00+07:00" Muc_luong="9000000" Dien_thoai="0944699443" Mail="dphtrúc@alphtkyahoovn" Dia_chi="Đinh quyết P Quận 14-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="27" Ho_ten="Hoa đình Trúc" ID_GIOI_TINH="3" CMND="053686373" Ngay_sinh="1988-12-29T00:00:00+07:00" Muc_luong="11100000" Dien_thoai="0941064811" Mail="hđtrúc@mdagmailcom" Dia_chi="Thái văn V Quận 1-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="28" Ho_ten="Hồ đình thụy Lan" ID_GIOI_TINH="1" CMND="032374354" Ngay_sinh="1987-06-26T00:00:00+07:00" Muc_luong="9300000" Dien_thoai="0986962092" Mail="hđtlan@alphtkhcmcom" Dia_chi="Phùng nam L Quận 1-TP. HCM" ID_DON_VI="2" />
+  <NHAN_VIEN ID="29" Ho_ten="Trường văn Bảo" ID_GIOI_TINH="2" CMND="062572690" Ngay_sinh="1981-03-06T00:00:00+07:00" Muc_luong="6300000" Dien_thoai="0928221363" Mail="tvbảo@alphtkhcmcom" Dia_chi="Trương lâm W Quận 12-TP. HCM" ID_DON_VI="3" />
+  <NHAN_VIEN ID="30" Ho_ten="Bàng kiến ngọc Châu" ID_GIOI_TINH="3" CMND="078148818" Ngay_sinh="1966-09-09T00:00:00+07:00" Muc_luong="9600000" Dien_thoai="0912879397" Mail="bknchâu@alphtkvn" Dia_chi="Nguyễn thiện H Quận 2-TP. HCM" ID_DON_VI="3" />
+  <NHAN_VIEN ID="31" Ho_ten="Phạm quyết Thúy" ID_GIOI_TINH="2" CMND="047473321" Ngay_sinh="1968-08-10T00:00:00+07:00" Muc_luong="8400000" Dien_thoai="0920344955" Mail="pqthúy@gmailcom" Dia_chi="Đặng phước V Quận 3-TP. HCM" ID_DON_VI="3" />
+  <NHAN_VIEN ID="32" Ho_ten="Phí đình ngọc Châu" ID_GIOI_TINH="2" CMND="044741647" Ngay_sinh="1974-01-20T00:00:00+07:00" Muc_luong="6000000" Dien_thoai="0906553716" Mail="pđnchâu@mrnhncom" Dia_chi="Triệu minh K Quận 11-TP. HCM" ID_DON_VI="3" />
+  <NHAN_VIEN ID="33" Ho_ten="Phùng duy Tế" ID_GIOI_TINH="1" CMND="045690498" Ngay_sinh="1973-07-22T00:00:00+07:00" Muc_luong="3300000" Dien_thoai="0964617024" Mail="pdtế@mdahcmcom" Dia_chi="Hoa quyết S Quận 3-TP. HCM" ID_DON_VI="3" />
+  <NHAN_VIEN ID="34" Ho_ten="Thái như Hùng" ID_GIOI_TINH="1" CMND="080781740" Ngay_sinh="1994-03-13T00:00:00+07:00" Muc_luong="9600000" Dien_thoai="0914641495" Mail="tnhùng@euhhncom" Dia_chi="Phạm phước H Quận 14-TP. HCM" ID_DON_VI="3" />
+  <NHAN_VIEN ID="35" Ho_ten="Nguyễn đình hiền Thục" ID_GIOI_TINH="3" CMND="016304940" Ngay_sinh="1987-12-08T00:00:00+07:00" Muc_luong="5400000" Dien_thoai="0978654200" Mail="nđhthục@yahoovn" Dia_chi="Bạch đình E Quận 4-TP. HCM" ID_DON_VI="3" />
+  <NHAN_VIEN ID="36" Ho_ten="Chu thanh Hóa" ID_GIOI_TINH="1" CMND="005094783" Ngay_sinh="1967-05-13T00:00:00+07:00" Muc_luong="11700000" Dien_thoai="0938324631" Mail="cthóa@mrngmailvn" Dia_chi="Đổ sơn W Quận 4-TP. HCM" ID_DON_VI="3" />
+  <NHAN_VIEN ID="37" Ho_ten="Cao ngọc khánh Ngọc" ID_GIOI_TINH="3" CMND="089444783" Ngay_sinh="1989-12-02T00:00:00+07:00" Muc_luong="4800000" Dien_thoai="0957917596" Mail="cnkngọc@euhhcmcom" Dia_chi="Bạch lê T Quận 1-TP. HCM" ID_DON_VI="3" />
+  <NHAN_VIEN ID="38" Ho_ten="Lâm quyết Khoa" ID_GIOI_TINH="2" CMND="041303320" Ngay_sinh="1992-08-17T00:00:00+07:00" Muc_luong="3900000" Dien_thoai="0938394537" Mail="lqkhoa@alphtkhcmvn" Dia_chi="Bạch thị R Quận 3-Đà nẳng" ID_DON_VI="3" />
+  <NHAN_VIEN ID="39" Ho_ten="Cao phạm Đài" ID_GIOI_TINH="1" CMND="009803341" Ngay_sinh="1989-09-07T00:00:00+07:00" Muc_luong="5400000" Dien_thoai="0926685458" Mail="cpđài@cschcmcom" Dia_chi="Quách bích A Quận 9-TP. HCM" ID_DON_VI="3" />
+  <NHAN_VIEN ID="40" Ho_ten="Nguyễn thị Hồng" ID_GIOI_TINH="2" CMND="079276879" Ngay_sinh="1970-09-25T00:00:00+07:00" Muc_luong="3300000" Dien_thoai="0940350125" Mail="nthồng@csccom" Dia_chi="Đổ tiến C Quận 6-Long an" ID_DON_VI="3" />
+  <NHAN_VIEN ID="41" Ho_ten="Huỳnh văn Nguyên" ID_GIOI_TINH="2" CMND="003909871" Ngay_sinh="1982-01-14T00:00:00+07:00" Muc_luong="11100000" Dien_thoai="0998907517" Mail="hvnguyên@sptvn" Dia_chi="Phạm hữu L Quận 13-TP. HCM" ID_DON_VI="4" />
+  <NHAN_VIEN ID="42" Ho_ten="Nguyễn bích Đông" ID_GIOI_TINH="2" CMND="065015419" Ngay_sinh="1988-11-07T00:00:00+07:00" Muc_luong="10800000" Dien_thoai="0911362405" Mail="nbđông@mdacom" Dia_chi="Phùng thị Y Quận 9-TP. HCM" ID_DON_VI="4" />
+  <NHAN_VIEN ID="43" Ho_ten="Nguyễn gia cẩm Thúy" ID_GIOI_TINH="1" CMND="015405561" Ngay_sinh="1978-12-12T00:00:00+07:00" Muc_luong="7500000" Dien_thoai="0969746650" Mail="ngcthúy@mrncom" Dia_chi="Phạm hữu M Quận 12-TP. HCM" ID_DON_VI="4" />
+  <NHAN_VIEN ID="44" Ho_ten="Bạch phước Khánh" ID_GIOI_TINH="2" CMND="036936890" Ngay_sinh="1984-11-02T00:00:00+07:00" Muc_luong="11700000" Dien_thoai="0936180624" Mail="bpkhánh@mrncom" Dia_chi="Hà thế H Quận 14-TP. HCM" ID_DON_VI="4" />
+  <NHAN_VIEN ID="45" Ho_ten="Nguyễn phước Viễn" ID_GIOI_TINH="2" CMND="096741652" Ngay_sinh="1985-04-14T00:00:00+07:00" Muc_luong="11100000" Dien_thoai="0946515662" Mail="npviễn@alphtkgmailvn" Dia_chi="Trang hồng G Quận 1-Tiền giang" ID_DON_VI="4" />
+  <NHAN_VIEN ID="46" Ho_ten="Ngô đắc ngọc Châu" ID_GIOI_TINH="1" CMND="006977394" Ngay_sinh="1986-02-02T00:00:00+07:00" Muc_luong="9300000" Dien_thoai="0952914387" Mail="nđnchâu@hnvn" Dia_chi="Đinh như B Quận 9-TP. HCM" ID_DON_VI="4" />
+  <NHAN_VIEN ID="47" Ho_ten="Phùng thanh Khiêm" ID_GIOI_TINH="2" CMND="075559512" Ngay_sinh="1991-11-14T00:00:00+07:00" Muc_luong="8100000" Dien_thoai="0976841726" Mail="ptkhiêm@hcmvn" Dia_chi="Trần văn K Quận 4-Tiền giang" ID_DON_VI="5" />
+  <NHAN_VIEN ID="48" Ho_ten="Đổ văn Thúy" ID_GIOI_TINH="2" CMND="090533428" Ngay_sinh="1988-10-04T00:00:00+07:00" Muc_luong="3000000" Dien_thoai="0906963101" Mail="đvthúy@euhgmailcom" Dia_chi="Hoa văn L Quận 8-TP. HCM" ID_DON_VI="5" />
+  <NHAN_VIEN ID="49" Ho_ten="Ngô duy Khuê" ID_GIOI_TINH="3" CMND="023569772" Ngay_sinh="1993-11-03T00:00:00+07:00" Muc_luong="5100000" Dien_thoai="0970417435" Mail="ndkhuê@spthcmcom" Dia_chi="Bạch lê I Quận 2-TP. HCM" ID_DON_VI="5" />
+  <NHAN_VIEN ID="50" Ho_ten="Bàng lê Liên" ID_GIOI_TINH="3" CMND="055572969" Ngay_sinh="1975-06-27T00:00:00+07:00" Muc_luong="7200000" Dien_thoai="0955008583" Mail="blliên@hcmvn" Dia_chi="Đinh văn L Quận 13-TP. HCM" ID_DON_VI="5" />
+  <NHAN_VIEN ID="51" Ho_ten="Bạch thanh hồng Thu" ID_GIOI_TINH="3" CMND="091627426" Ngay_sinh="1976-01-15T00:00:00+07:00" Muc_luong="7500000" Dien_thoai="0913220580" Mail="bththu@alphtkhcmcom" Dia_chi="Võ an A Quận 2-Tiền giang" ID_DON_VI="5" />
+  <NHAN_VIEN ID="52" Ho_ten="Nguyên viết Hóa" ID_GIOI_TINH="3" CMND="065651103" Ngay_sinh="1982-03-31T00:00:00+07:00" Muc_luong="6000000" Dien_thoai="0988233117" Mail="nvhóa@sptyahoovn" Dia_chi="Thái văn T Quận 10-TP. HCM" ID_DON_VI="5" />
+  <NHAN_VIEN ID="53" Ho_ten="Nguyễn tắc Liên" ID_GIOI_TINH="2" CMND="090428110" Ngay_sinh="1971-09-07T00:00:00+07:00" Muc_luong="7800000" Dien_thoai="0966709441" Mail="ntliên@sptyahoovn" Dia_chi="Bành thanh U Quận 6-TP. HCM" ID_DON_VI="5" />
+  <NHAN_VIEN ID="54" Ho_ten="Nguyễn sơn hảo Tâm" ID_GIOI_TINH="2" CMND="058815570" Ngay_sinh="1989-12-23T00:00:00+07:00" Muc_luong="8100000" Dien_thoai="0933542115" Mail="nshtâm@hcmvn" Dia_chi="Đinh văn D Quận 9-TP. HCM" ID_DON_VI="5" />
+  <NHAN_VIEN ID="55" Ho_ten="Trần lâm Kiếm" ID_GIOI_TINH="1" CMND="017750261" Ngay_sinh="1993-07-24T00:00:00+07:00" Muc_luong="8700000" Dien_thoai="0984241417" Mail="tlkiếm@mdahnvn" Dia_chi="Tô kỳ G Quận 4-Cần Thơ" ID_DON_VI="5" />
+  <NHAN_VIEN ID="56" Ho_ten="Kiều văn Dung" ID_GIOI_TINH="3" CMND="026187596" Ngay_sinh="1991-01-20T00:00:00+07:00" Muc_luong="5400000" Dien_thoai="0969394076" Mail="kvdung@spthcmvn" Dia_chi="Trầm đình U Quận 3-Long an" ID_DON_VI="5" />
+  <NHAN_VIEN ID="57" Ho_ten="Lý đình Trúc" ID_GIOI_TINH="1" CMND="047154281" Ngay_sinh="1970-03-31T00:00:00+07:00" Muc_luong="3000000" Dien_thoai="0934764519" Mail="lđtrúc@mrnvn" Dia_chi="Đặng minh P Quận 8-TP. HCM" ID_DON_VI="5" />
+  <NHAN_VIEN ID="58" Ho_ten="Hoa kim Vàng" ID_GIOI_TINH="2" CMND="045916101" Ngay_sinh="1969-10-19T00:00:00+07:00" Muc_luong="4800000" Dien_thoai="0988852163" Mail="hkvàng@vn" Dia_chi="Huỳnh thanh Q Quận 3-TP. HCM" ID_DON_VI="5" />
+  <NHAN_VIEN ID="59" Ho_ten="Hứa triệu đình Phước" ID_GIOI_TINH="1" CMND="038240284" Ngay_sinh="1988-10-04T00:00:00+07:00" Muc_luong="6900000" Dien_thoai="0963215433" Mail="htđphước@euhhcmcom" Dia_chi="Phạm gia V Quận 4-TP. HCM" ID_DON_VI="5" />
+  <NHAN_VIEN ID="60" Ho_ten="Trần đình Trường" ID_GIOI_TINH="1" CMND="007334666" Ngay_sinh="1991-01-06T00:00:00+07:00" Muc_luong="9900000" Dien_thoai="0935472370" Mail="tđtrường@mdahcmcom" Dia_chi="Đặng gia A Quận 4-Vĩnh Long" ID_DON_VI="5" />
+  <NHAN_VIEN ID="61" Ho_ten="Võ như Tấn" ID_GIOI_TINH="1" CMND="055769086" Ngay_sinh="1976-12-25T00:00:00+07:00" Muc_luong="3000000" Dien_thoai="0939859707" Mail="vntấn@cschnvn" Dia_chi="Trầm phước V Quận 5-TP. HCM" ID_DON_VI="6" />
+  <NHAN_VIEN ID="62" Ho_ten="Phạm văn Lộc" ID_GIOI_TINH="3" CMND="095253571" Ngay_sinh="1966-06-04T00:00:00+07:00" Muc_luong="11100000" Dien_thoai="0978781517" Mail="pvlộc@mdahnvn" Dia_chi="Phạm thiện Y Quận 8-TP. HCM" ID_DON_VI="6" />
+  <NHAN_VIEN ID="63" Ho_ten="Đặng kiến Lộc" ID_GIOI_TINH="3" CMND="096298768" Ngay_sinh="1982-07-14T00:00:00+07:00" Muc_luong="6600000" Dien_thoai="0910449152" Mail="đklộc@mdahnvn" Dia_chi="Ngô như U Quận 3-TP. HCM" ID_DON_VI="6" />
+  <NHAN_VIEN ID="64" Ho_ten="Đặng văn Dương" ID_GIOI_TINH="3" CMND="050097518" Ngay_sinh="1966-12-30T00:00:00+07:00" Muc_luong="5400000" Dien_thoai="0955981560" Mail="đvdương@mrngmailvn" Dia_chi="Nguyễn bích J Quận 10-TP. HCM" ID_DON_VI="6" />
+  <NHAN_VIEN ID="65" Ho_ten="Liên thanh Toàn" ID_GIOI_TINH="1" CMND="040480440" Ngay_sinh="1977-11-30T00:00:00+07:00" Muc_luong="11100000" Dien_thoai="0980169830" Mail="lttoàn@cschnvn" Dia_chi="Mai phước I Quận 12-TP. HCM" ID_DON_VI="6" />
+  <NV ID="1" Ten_Dang_nhap="NV_1" Mat_khau="NV_1" ID_NHAN_VIEN="1" />
+  <NV ID="2" Ten_Dang_nhap="NV_2" Mat_khau="NV_2" ID_NHAN_VIEN="2" />
+  <NV ID="3" Ten_Dang_nhap="NV_3" Mat_khau="NV_3" ID_NHAN_VIEN="3" />
+  <NV ID="4" Ten_Dang_nhap="NV_4" Mat_khau="NV_4" ID_NHAN_VIEN="4" />
+  <NV ID="5" Ten_Dang_nhap="NV_5" Mat_khau="NV_5" ID_NHAN_VIEN="5" />
+  <NV ID="6" Ten_Dang_nhap="NV_6" Mat_khau="NV_6" ID_NHAN_VIEN="6" />
+  <NV ID="7" Ten_Dang_nhap="NV_7" Mat_khau="NV_7" ID_NHAN_VIEN="7" />
+  <NV ID="8" Ten_Dang_nhap="NV_8" Mat_khau="NV_8" ID_NHAN_VIEN="8" />
+  <NV ID="9" Ten_Dang_nhap="NV_9" Mat_khau="NV_9" ID_NHAN_VIEN="9" />
+  <NV ID="10" Ten_Dang_nhap="NV_10" Mat_khau="NV_10" ID_NHAN_VIEN="10" />
+  <NV ID="11" Ten_Dang_nhap="NV_11" Mat_khau="NV_11" ID_NHAN_VIEN="11" />
+  <NV ID="12" Ten_Dang_nhap="NV_12" Mat_khau="NV_12" ID_NHAN_VIEN="12" />
+  <NV ID="13" Ten_Dang_nhap="NV_13" Mat_khau="NV_13" ID_NHAN_VIEN="13" />
+  <NV ID="14" Ten_Dang_nhap="NV_14" Mat_khau="NV_14" ID_NHAN_VIEN="14" />
+  <NV ID="15" Ten_Dang_nhap="NV_15" Mat_khau="NV_15" ID_NHAN_VIEN="15" />
+  <NV ID="16" Ten_Dang_nhap="NV_16" Mat_khau="NV_16" ID_NHAN_VIEN="16" />
+  <NV ID="17" Ten_Dang_nhap="NV_17" Mat_khau="NV_17" ID_NHAN_VIEN="17" />
+  <NV ID="18" Ten_Dang_nhap="NV_18" Mat_khau="NV_18" ID_NHAN_VIEN="18" />
+  <NV ID="19" Ten_Dang_nhap="NV_19" Mat_khau="NV_19" ID_NHAN_VIEN="19" />
+  <NV ID="20" Ten_Dang_nhap="NV_20" Mat_khau="NV_20" ID_NHAN_VIEN="20" />
+  <NV ID="21" Ten_Dang_nhap="NV_21" Mat_khau="NV_21" ID_NHAN_VIEN="21" />
+  <NV ID="22" Ten_Dang_nhap="NV_22" Mat_khau="NV_22" ID_NHAN_VIEN="22" />
+  <NV ID="23" Ten_Dang_nhap="NV_23" Mat_khau="NV_23" ID_NHAN_VIEN="23" />
+  <NV ID="24" Ten_Dang_nhap="NV_24" Mat_khau="NV_24" ID_NHAN_VIEN="24" />
+  <NV ID="25" Ten_Dang_nhap="NV_25" Mat_khau="NV_25" ID_NHAN_VIEN="25" />
+  <NV ID="26" Ten_Dang_nhap="NV_26" Mat_khau="NV_26" ID_NHAN_VIEN="26" />
+  <NV ID="27" Ten_Dang_nhap="NV_27" Mat_khau="NV_27" ID_NHAN_VIEN="27" />
+  <NV ID="28" Ten_Dang_nhap="NV_28" Mat_khau="NV_28" ID_NHAN_VIEN="28" />
+  <NV ID="29" Ten_Dang_nhap="NV_29" Mat_khau="NV_29" ID_NHAN_VIEN="29" />
+  <NV ID="30" Ten_Dang_nhap="NV_30" Mat_khau="NV_30" ID_NHAN_VIEN="30" />
+  <NV ID="31" Ten_Dang_nhap="NV_31" Mat_khau="NV_31" ID_NHAN_VIEN="31" />
+  <NV ID="32" Ten_Dang_nhap="NV_32" Mat_khau="NV_32" ID_NHAN_VIEN="32" />
+  <NV ID="33" Ten_Dang_nhap="NV_33" Mat_khau="NV_33" ID_NHAN_VIEN="33" />
+  <NV ID="34" Ten_Dang_nhap="NV_34" Mat_khau="NV_34" ID_NHAN_VIEN="34" />
+  <NV ID="35" Ten_Dang_nhap="NV_35" Mat_khau="NV_35" ID_NHAN_VIEN="35" />
+  <NV ID="36" Ten_Dang_nhap="NV_36" Mat_khau="NV_36" ID_NHAN_VIEN="36" />
+  <NV ID="37" Ten_Dang_nhap="NV_37" Mat_khau="NV_37" ID_NHAN_VIEN="37" />
+  <NV ID="38" Ten_Dang_nhap="NV_38" Mat_khau="NV_38" ID_NHAN_VIEN="38" />
+  <NV ID="39" Ten_Dang_nhap="NV_39" Mat_khau="NV_39" ID_NHAN_VIEN="39" />
+  <NV ID="40" Ten_Dang_nhap="NV_40" Mat_khau="NV_40" ID_NHAN_VIEN="40" />
+  <NV ID="41" Ten_Dang_nhap="NV_41" Mat_khau="NV_41" ID_NHAN_VIEN="41" />
+  <NV ID="42" Ten_Dang_nhap="NV_42" Mat_khau="NV_42" ID_NHAN_VIEN="42" />
+  <NV ID="43" Ten_Dang_nhap="NV_43" Mat_khau="NV_43" ID_NHAN_VIEN="43" />
+  <NV ID="44" Ten_Dang_nhap="NV_44" Mat_khau="NV_44" ID_NHAN_VIEN="44" />
+  <NV ID="45" Ten_Dang_nhap="NV_45" Mat_khau="NV_45" ID_NHAN_VIEN="45" />
+  <NV ID="46" Ten_Dang_nhap="NV_46" Mat_khau="NV_46" ID_NHAN_VIEN="46" />
+  <NV ID="47" Ten_Dang_nhap="NV_47" Mat_khau="NV_47" ID_NHAN_VIEN="47" />
+  <NV ID="48" Ten_Dang_nhap="NV_48" Mat_khau="NV_48" ID_NHAN_VIEN="48" />
+  <NV ID="49" Ten_Dang_nhap="NV_49" Mat_khau="NV_49" ID_NHAN_VIEN="49" />
+  <NV ID="50" Ten_Dang_nhap="NV_50" Mat_khau="NV_50" ID_NHAN_VIEN="50" />
+  <NV ID="51" Ten_Dang_nhap="NV_51" Mat_khau="NV_51" ID_NHAN_VIEN="51" />
+  <NV ID="52" Ten_Dang_nhap="NV_52" Mat_khau="NV_52" ID_NHAN_VIEN="52" />
+  <NV ID="53" Ten_Dang_nhap="NV_53" Mat_khau="NV_53" ID_NHAN_VIEN="53" />
+  <NV ID="54" Ten_Dang_nhap="NV_54" Mat_khau="NV_54" ID_NHAN_VIEN="54" />
+  <NV ID="55" Ten_Dang_nhap="NV_55" Mat_khau="NV_55" ID_NHAN_VIEN="55" />
+  <NV ID="56" Ten_Dang_nhap="NV_56" Mat_khau="NV_56" ID_NHAN_VIEN="56" />
+  <NV ID="57" Ten_Dang_nhap="NV_57" Mat_khau="NV_57" ID_NHAN_VIEN="57" />
+  <NV ID="58" Ten_Dang_nhap="NV_58" Mat_khau="NV_58" ID_NHAN_VIEN="58" />
+  <NV ID="59" Ten_Dang_nhap="NV_59" Mat_khau="NV_59" ID_NHAN_VIEN="59" />
+  <NV ID="60" Ten_Dang_nhap="NV_60" Mat_khau="NV_60" ID_NHAN_VIEN="60" />
+  <NV ID="61" Ten_Dang_nhap="NV_61" Mat_khau="NV_61" ID_NHAN_VIEN="61" />
+  <NV ID="62" Ten_Dang_nhap="NV_62" Mat_khau="NV_62" ID_NHAN_VIEN="62" />
+  <NV ID="63" Ten_Dang_nhap="NV_63" Mat_khau="NV_63" ID_NHAN_VIEN="63" />
+  <NV ID="64" Ten_Dang_nhap="NV_64" Mat_khau="NV_64" ID_NHAN_VIEN="64" />
+  <NV ID="65" Ten_Dang_nhap="NV_65" Mat_khau="NV_65" ID_NHAN_VIEN="65" />
+  <QLCN ID="1" Ten_Dang_nhap="QLCN_1" Mat_khau="QLCN_1" ID_CHI_NHANH="1" />
+  <QLCN ID="2" Ten_Dang_nhap="QLCN_2" Mat_khau="QLCN_2" ID_CHI_NHANH="2" />
+  <QLCT ID="1" Ten_Dang_nhap="QLCT_1" Mat_khau="QLCT_1" ID_CONG_TY="1" />
+  <QLDV ID="1" Ten_Dang_nhap="QLDV_1" Mat_khau="QLDV_1" ID_DON_VI="1" />
+  <QLDV ID="2" Ten_Dang_nhap="QLDV_2" Mat_khau="QLDV_2" ID_DON_VI="2" />
+  <QLDV ID="3" Ten_Dang_nhap="QLDV_3" Mat_khau="QLDV_3" ID_DON_VI="3" />
+  <QLDV ID="4" Ten_Dang_nhap="QLDV_4" Mat_khau="QLDV_4" ID_DON_VI="4" />
+  <QLDV ID="5" Ten_Dang_nhap="QLDV_5" Mat_khau="QLDV_5" ID_DON_VI="5" />
+  <QLDV ID="6" Ten_Dang_nhap="QLDV_6" Mat_khau="QLDV_6" ID_DON_VI="6" />
+</Hoang_hon_Som_QLNV_1>

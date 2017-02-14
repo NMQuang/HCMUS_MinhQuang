@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Doc_Goc">
+        <s:complexType />
+      </s:element>
+      <s:element name="Doc_GocResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Doc_GocResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLCT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ten_Dang_nhap" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mat_khau" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLCTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Dang_nhap_QLCTResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Cap_nhat_Ho_so_Cong_ty">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Chuoi_Tham_so_Khung" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Cap_nhat_Ho_so_Cong_tyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Cap_nhat_Ho_so_Cong_tyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Doc_GocSoapIn">
+    <wsdl:part name="parameters" element="tns:Doc_Goc" />
+  </wsdl:message>
+  <wsdl:message name="Doc_GocSoapOut">
+    <wsdl:part name="parameters" element="tns:Doc_GocResponse" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLCTSoapIn">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLCT" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLCTSoapOut">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLCTResponse" />
+  </wsdl:message>
+  <wsdl:message name="Cap_nhat_Ho_so_Cong_tySoapIn">
+    <wsdl:part name="parameters" element="tns:Cap_nhat_Ho_so_Cong_ty" />
+  </wsdl:message>
+  <wsdl:message name="Cap_nhat_Ho_so_Cong_tySoapOut">
+    <wsdl:part name="parameters" element="tns:Cap_nhat_Ho_so_Cong_tyResponse" />
+  </wsdl:message>
+  <wsdl:portType name="XL_DICH_VU_ASMXSoap">
+    <wsdl:operation name="Doc_Goc">
+      <wsdl:input message="tns:Doc_GocSoapIn" />
+      <wsdl:output message="tns:Doc_GocSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCT">
+      <wsdl:input message="tns:Dang_nhap_QLCTSoapIn" />
+      <wsdl:output message="tns:Dang_nhap_QLCTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Cap_nhat_Ho_so_Cong_ty">
+      <wsdl:input message="tns:Cap_nhat_Ho_so_Cong_tySoapIn" />
+      <wsdl:output message="tns:Cap_nhat_Ho_so_Cong_tySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="XL_DICH_VU_ASMXSoap" type="tns:XL_DICH_VU_ASMXSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Doc_Goc">
+      <soap:operation soapAction="http://tempuri.org/Doc_Goc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCT">
+      <soap:operation soapAction="http://tempuri.org/Dang_nhap_QLCT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cap_nhat_Ho_so_Cong_ty">
+      <soap:operation soapAction="http://tempuri.org/Cap_nhat_Ho_so_Cong_ty" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="XL_DICH_VU_ASMXSoap12" type="tns:XL_DICH_VU_ASMXSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Doc_Goc">
+      <soap12:operation soapAction="http://tempuri.org/Doc_Goc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCT">
+      <soap12:operation soapAction="http://tempuri.org/Dang_nhap_QLCT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cap_nhat_Ho_so_Cong_ty">
+      <soap12:operation soapAction="http://tempuri.org/Cap_nhat_Ho_so_Cong_ty" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="XL_DICH_VU_ASMX">
+    <wsdl:port name="XL_DICH_VU_ASMXSoap" binding="tns:XL_DICH_VU_ASMXSoap">
+      <soap:address location="http://localhost:15144/XL_DICH_VU_ASMX.asmx" />
+    </wsdl:port>
+    <wsdl:port name="XL_DICH_VU_ASMXSoap12" binding="tns:XL_DICH_VU_ASMXSoap12">
+      <soap12:address location="http://localhost:15144/XL_DICH_VU_ASMX.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

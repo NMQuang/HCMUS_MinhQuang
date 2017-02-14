@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="docDuLieu">
+        <s:complexType />
+      </s:element>
+      <s:element name="docDuLieuResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="docDuLieuResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="docBang">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tenBang" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cot" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="dieuKien" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="docBangResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="docBangResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="themDuLieu">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="chuoiXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="themDuLieuResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="themDuLieuResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Cap_nhat">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Chuoi_Xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Cap_nhatResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Cap_nhatResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Xoa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Chuoi_Xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="XoaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XoaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Doc_Hinh">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ma_so" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Doc_HinhResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Doc_HinhResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Ghi_Hinh">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ma_so" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nhi_phan_Hinh" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Ghi_HinhResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ghi_HinhResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="docDuLieuSoapIn">
+    <wsdl:part name="parameters" element="tns:docDuLieu" />
+  </wsdl:message>
+  <wsdl:message name="docDuLieuSoapOut">
+    <wsdl:part name="parameters" element="tns:docDuLieuResponse" />
+  </wsdl:message>
+  <wsdl:message name="docBangSoapIn">
+    <wsdl:part name="parameters" element="tns:docBang" />
+  </wsdl:message>
+  <wsdl:message name="docBangSoapOut">
+    <wsdl:part name="parameters" element="tns:docBangResponse" />
+  </wsdl:message>
+  <wsdl:message name="themDuLieuSoapIn">
+    <wsdl:part name="parameters" element="tns:themDuLieu" />
+  </wsdl:message>
+  <wsdl:message name="themDuLieuSoapOut">
+    <wsdl:part name="parameters" element="tns:themDuLieuResponse" />
+  </wsdl:message>
+  <wsdl:message name="Cap_nhatSoapIn">
+    <wsdl:part name="parameters" element="tns:Cap_nhat" />
+  </wsdl:message>
+  <wsdl:message name="Cap_nhatSoapOut">
+    <wsdl:part name="parameters" element="tns:Cap_nhatResponse" />
+  </wsdl:message>
+  <wsdl:message name="XoaSoapIn">
+    <wsdl:part name="parameters" element="tns:Xoa" />
+  </wsdl:message>
+  <wsdl:message name="XoaSoapOut">
+    <wsdl:part name="parameters" element="tns:XoaResponse" />
+  </wsdl:message>
+  <wsdl:message name="Doc_HinhSoapIn">
+    <wsdl:part name="parameters" element="tns:Doc_Hinh" />
+  </wsdl:message>
+  <wsdl:message name="Doc_HinhSoapOut">
+    <wsdl:part name="parameters" element="tns:Doc_HinhResponse" />
+  </wsdl:message>
+  <wsdl:message name="Ghi_HinhSoapIn">
+    <wsdl:part name="parameters" element="tns:Ghi_Hinh" />
+  </wsdl:message>
+  <wsdl:message name="Ghi_HinhSoapOut">
+    <wsdl:part name="parameters" element="tns:Ghi_HinhResponse" />
+  </wsdl:message>
+  <wsdl:portType name="XL_DICH_VU_ASMXSoap">
+    <wsdl:operation name="docDuLieu">
+      <wsdl:input message="tns:docDuLieuSoapIn" />
+      <wsdl:output message="tns:docDuLieuSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="docBang">
+      <wsdl:input message="tns:docBangSoapIn" />
+      <wsdl:output message="tns:docBangSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="themDuLieu">
+      <wsdl:input message="tns:themDuLieuSoapIn" />
+      <wsdl:output message="tns:themDuLieuSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Cap_nhat">
+      <wsdl:input message="tns:Cap_nhatSoapIn" />
+      <wsdl:output message="tns:Cap_nhatSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Xoa">
+      <wsdl:input message="tns:XoaSoapIn" />
+      <wsdl:output message="tns:XoaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Doc_Hinh">
+      <wsdl:input message="tns:Doc_HinhSoapIn" />
+      <wsdl:output message="tns:Doc_HinhSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Ghi_Hinh">
+      <wsdl:input message="tns:Ghi_HinhSoapIn" />
+      <wsdl:output message="tns:Ghi_HinhSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="XL_DICH_VU_ASMXSoap" type="tns:XL_DICH_VU_ASMXSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="docDuLieu">
+      <soap:operation soapAction="http://tempuri.org/docDuLieu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="docBang">
+      <soap:operation soapAction="http://tempuri.org/docBang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="themDuLieu">
+      <soap:operation soapAction="http://tempuri.org/themDuLieu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cap_nhat">
+      <soap:operation soapAction="http://tempuri.org/Cap_nhat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Xoa">
+      <soap:operation soapAction="http://tempuri.org/Xoa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Doc_Hinh">
+      <soap:operation soapAction="http://tempuri.org/Doc_Hinh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Ghi_Hinh">
+      <soap:operation soapAction="http://tempuri.org/Ghi_Hinh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="XL_DICH_VU_ASMXSoap12" type="tns:XL_DICH_VU_ASMXSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="docDuLieu">
+      <soap12:operation soapAction="http://tempuri.org/docDuLieu" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="docBang">
+      <soap12:operation soapAction="http://tempuri.org/docBang" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="themDuLieu">
+      <soap12:operation soapAction="http://tempuri.org/themDuLieu" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cap_nhat">
+      <soap12:operation soapAction="http://tempuri.org/Cap_nhat" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Xoa">
+      <soap12:operation soapAction="http://tempuri.org/Xoa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Doc_Hinh">
+      <soap12:operation soapAction="http://tempuri.org/Doc_Hinh" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Ghi_Hinh">
+      <soap12:operation soapAction="http://tempuri.org/Ghi_Hinh" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="XL_DICH_VU_ASMX">
+    <wsdl:port name="XL_DICH_VU_ASMXSoap" binding="tns:XL_DICH_VU_ASMXSoap">
+      <soap:address location="http://localhost:7751/XL_DICH_VU_ASMX.asmx" />
+    </wsdl:port>
+    <wsdl:port name="XL_DICH_VU_ASMXSoap12" binding="tns:XL_DICH_VU_ASMXSoap12">
+      <soap12:address location="http://localhost:7751/XL_DICH_VU_ASMX.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

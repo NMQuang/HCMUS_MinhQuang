@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Thu_nghiem">
+        <s:complexType />
+      </s:element>
+      <s:element name="Thu_nghiemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Thu_nghiemResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLCT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ten_Dang_nhap" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mat_khau" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLCTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Dang_nhap_QLCTResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLCN">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ten_Dang_nhap" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mat_khau" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLCNResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Dang_nhap_QLCNResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLDV">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ten_Dang_nhap" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mat_khau" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLDVResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Dang_nhap_QLDVResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_NV">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ten_Dang_nhap" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mat_khau" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_NVResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Dang_nhap_NVResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Doc_Nhi_phan_Hinh">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ma_so" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Doc_Nhi_phan_HinhResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Doc_Nhi_phan_HinhResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLCT_XDO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ten_Dang_nhap" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mat_khau" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLCT_XDOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Dang_nhap_QLCT_XDOResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLCN_XDO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ten_Dang_nhap" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mat_khau" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLCN_XDOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Dang_nhap_QLCN_XDOResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLDV_XDO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ten_Dang_nhap" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mat_khau" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_QLDV_XDOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Dang_nhap_QLDV_XDOResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_NV_XDO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ten_Dang_nhap" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mat_khau" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Dang_nhap_NV_XDOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Dang_nhap_NV_XDOResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Thu_nghiemSoapIn">
+    <wsdl:part name="parameters" element="tns:Thu_nghiem" />
+  </wsdl:message>
+  <wsdl:message name="Thu_nghiemSoapOut">
+    <wsdl:part name="parameters" element="tns:Thu_nghiemResponse" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLCTSoapIn">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLCT" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLCTSoapOut">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLCTResponse" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLCNSoapIn">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLCN" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLCNSoapOut">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLCNResponse" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLDVSoapIn">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLDV" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLDVSoapOut">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLDVResponse" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_NVSoapIn">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_NV" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_NVSoapOut">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_NVResponse" />
+  </wsdl:message>
+  <wsdl:message name="Doc_Nhi_phan_HinhSoapIn">
+    <wsdl:part name="parameters" element="tns:Doc_Nhi_phan_Hinh" />
+  </wsdl:message>
+  <wsdl:message name="Doc_Nhi_phan_HinhSoapOut">
+    <wsdl:part name="parameters" element="tns:Doc_Nhi_phan_HinhResponse" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLCT_XDOSoapIn">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLCT_XDO" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLCT_XDOSoapOut">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLCT_XDOResponse" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLCN_XDOSoapIn">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLCN_XDO" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLCN_XDOSoapOut">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLCN_XDOResponse" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLDV_XDOSoapIn">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLDV_XDO" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_QLDV_XDOSoapOut">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_QLDV_XDOResponse" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_NV_XDOSoapIn">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_NV_XDO" />
+  </wsdl:message>
+  <wsdl:message name="Dang_nhap_NV_XDOSoapOut">
+    <wsdl:part name="parameters" element="tns:Dang_nhap_NV_XDOResponse" />
+  </wsdl:message>
+  <wsdl:portType name="XL_DICH_VU_QLNV_1Soap">
+    <wsdl:operation name="Thu_nghiem">
+      <wsdl:input message="tns:Thu_nghiemSoapIn" />
+      <wsdl:output message="tns:Thu_nghiemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCT">
+      <wsdl:input message="tns:Dang_nhap_QLCTSoapIn" />
+      <wsdl:output message="tns:Dang_nhap_QLCTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCN">
+      <wsdl:input message="tns:Dang_nhap_QLCNSoapIn" />
+      <wsdl:output message="tns:Dang_nhap_QLCNSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLDV">
+      <wsdl:input message="tns:Dang_nhap_QLDVSoapIn" />
+      <wsdl:output message="tns:Dang_nhap_QLDVSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_NV">
+      <wsdl:input message="tns:Dang_nhap_NVSoapIn" />
+      <wsdl:output message="tns:Dang_nhap_NVSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Doc_Nhi_phan_Hinh">
+      <wsdl:input message="tns:Doc_Nhi_phan_HinhSoapIn" />
+      <wsdl:output message="tns:Doc_Nhi_phan_HinhSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCT_XDO">
+      <wsdl:input message="tns:Dang_nhap_QLCT_XDOSoapIn" />
+      <wsdl:output message="tns:Dang_nhap_QLCT_XDOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCN_XDO">
+      <wsdl:input message="tns:Dang_nhap_QLCN_XDOSoapIn" />
+      <wsdl:output message="tns:Dang_nhap_QLCN_XDOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLDV_XDO">
+      <wsdl:input message="tns:Dang_nhap_QLDV_XDOSoapIn" />
+      <wsdl:output message="tns:Dang_nhap_QLDV_XDOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_NV_XDO">
+      <wsdl:input message="tns:Dang_nhap_NV_XDOSoapIn" />
+      <wsdl:output message="tns:Dang_nhap_NV_XDOSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="XL_DICH_VU_QLNV_1Soap" type="tns:XL_DICH_VU_QLNV_1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Thu_nghiem">
+      <soap:operation soapAction="http://tempuri.org/Thu_nghiem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCT">
+      <soap:operation soapAction="http://tempuri.org/Dang_nhap_QLCT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCN">
+      <soap:operation soapAction="http://tempuri.org/Dang_nhap_QLCN" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLDV">
+      <soap:operation soapAction="http://tempuri.org/Dang_nhap_QLDV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_NV">
+      <soap:operation soapAction="http://tempuri.org/Dang_nhap_NV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Doc_Nhi_phan_Hinh">
+      <soap:operation soapAction="http://tempuri.org/Doc_Nhi_phan_Hinh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCT_XDO">
+      <soap:operation soapAction="http://tempuri.org/Dang_nhap_QLCT_XDO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCN_XDO">
+      <soap:operation soapAction="http://tempuri.org/Dang_nhap_QLCN_XDO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLDV_XDO">
+      <soap:operation soapAction="http://tempuri.org/Dang_nhap_QLDV_XDO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_NV_XDO">
+      <soap:operation soapAction="http://tempuri.org/Dang_nhap_NV_XDO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="XL_DICH_VU_QLNV_1Soap12" type="tns:XL_DICH_VU_QLNV_1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Thu_nghiem">
+      <soap12:operation soapAction="http://tempuri.org/Thu_nghiem" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCT">
+      <soap12:operation soapAction="http://tempuri.org/Dang_nhap_QLCT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCN">
+      <soap12:operation soapAction="http://tempuri.org/Dang_nhap_QLCN" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLDV">
+      <soap12:operation soapAction="http://tempuri.org/Dang_nhap_QLDV" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_NV">
+      <soap12:operation soapAction="http://tempuri.org/Dang_nhap_NV" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Doc_Nhi_phan_Hinh">
+      <soap12:operation soapAction="http://tempuri.org/Doc_Nhi_phan_Hinh" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCT_XDO">
+      <soap12:operation soapAction="http://tempuri.org/Dang_nhap_QLCT_XDO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLCN_XDO">
+      <soap12:operation soapAction="http://tempuri.org/Dang_nhap_QLCN_XDO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_QLDV_XDO">
+      <soap12:operation soapAction="http://tempuri.org/Dang_nhap_QLDV_XDO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dang_nhap_NV_XDO">
+      <soap12:operation soapAction="http://tempuri.org/Dang_nhap_NV_XDO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="XL_DICH_VU_QLNV_1">
+    <wsdl:port name="XL_DICH_VU_QLNV_1Soap" binding="tns:XL_DICH_VU_QLNV_1Soap">
+      <soap:address location="http://nth.t3h.vn/Dich_vu_PET/XL_DICH_VU_QLNV_1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="XL_DICH_VU_QLNV_1Soap12" binding="tns:XL_DICH_VU_QLNV_1Soap12">
+      <soap12:address location="http://nth.t3h.vn/Dich_vu_PET/XL_DICH_VU_QLNV_1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

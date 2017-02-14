@@ -1,0 +1,32 @@
+E:\04_Tai_lieu_Hoc_tap_cua_Sinh_vien\CNXML_Sinh_vien\CNXML_Doc_Du_lieu_0\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll.config
+E:\04_Tai_lieu_Hoc_tap_cua_Sinh_vien\CNXML_Sinh_vien\CNXML_Doc_Du_lieu_0\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll
+E:\04_Tai_lieu_Hoc_tap_cua_Sinh_vien\CNXML_Sinh_vien\CNXML_Doc_Du_lieu_0\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.pdb
+E:\04_Tai_lieu_Hoc_tap_cua_Sinh_vien\CNXML_Sinh_vien\CNXML_Doc_Du_lieu_0\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.dll
+E:\04_Tai_lieu_Hoc_tap_cua_Sinh_vien\CNXML_Sinh_vien\CNXML_Doc_Du_lieu_0\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.pdb
+E:\03_Ho_tro_Thuc_hanh\CNXML_CS_Ky_thuat_Doc\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll.config
+E:\03_Ho_tro_Thuc_hanh\CNXML_CS_Ky_thuat_Doc\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll
+E:\03_Ho_tro_Thuc_hanh\CNXML_CS_Ky_thuat_Doc\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.pdb
+E:\03_Ho_tro_Thuc_hanh\CNXML_CS_Ky_thuat_Doc\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.csprojResolveAssemblyReference.cache
+E:\03_Ho_tro_Thuc_hanh\CNXML_CS_Ky_thuat_Doc\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.dll
+E:\03_Ho_tro_Thuc_hanh\CNXML_CS_Ky_thuat_Doc\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.pdb
+E:\03_Ho_tro_Thuc_hanh\CNXML_Minh_hoa_Thanh_phan_luu_tru\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll.config
+E:\03_Ho_tro_Thuc_hanh\CNXML_Minh_hoa_Thanh_phan_luu_tru\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll
+E:\03_Ho_tro_Thuc_hanh\CNXML_Minh_hoa_Thanh_phan_luu_tru\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.pdb
+E:\03_Ho_tro_Thuc_hanh\CNXML_Minh_hoa_Thanh_phan_luu_tru\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.dll
+E:\03_Ho_tro_Thuc_hanh\CNXML_Minh_hoa_Thanh_phan_luu_tru\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.pdb
+E:\01_Phan_mem\Ho_tro_Thuc_hanh_CS\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll.config
+E:\01_Phan_mem\Ho_tro_Thuc_hanh_CS\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll
+E:\01_Phan_mem\Ho_tro_Thuc_hanh_CS\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.pdb
+E:\01_Phan_mem\Ho_tro_Thuc_hanh_CS\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.dll
+E:\01_Phan_mem\Ho_tro_Thuc_hanh_CS\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.pdb
+E:\00_Thang_11_02_Bai_giang\Thanh_phan_Luu_tru\CS_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll.config
+E:\00_Thang_11_02_Bai_giang\Thanh_phan_Luu_tru\CS_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll
+E:\00_Thang_11_02_Bai_giang\Thanh_phan_Luu_tru\CS_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.pdb
+E:\00_Thang_11_02_Bai_giang\Thanh_phan_Luu_tru\CS_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.dll
+E:\00_Thang_11_02_Bai_giang\Thanh_phan_Luu_tru\CS_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.pdb
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll.config
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.dll
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\Dich_vu_Du_lieu\bin\Dich_vu_Du_lieu.pdb
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.csprojResolveAssemblyReference.cache
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.dll
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\Dich_vu_Du_lieu\obj\Debug\Dich_vu_Du_lieu.pdb

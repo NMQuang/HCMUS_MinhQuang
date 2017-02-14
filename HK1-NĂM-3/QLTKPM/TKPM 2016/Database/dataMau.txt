@@ -1,0 +1,50 @@
+DRINKING:
++ Address: 438 Nguy?n Tri Phuong, P. 4, Qu?n 10, TP. HCM
++ Name: Like - The Japanese Drinks & Cafe
++ ID: 10
++ AveragePrice: 45.000	
++ AverageUserRating: 9.8
++ Wifi: có
++ AverageServedTime: 20 phút
++Bitmap: https://media.foody.vn/res/g30/291858/prof/s480x300/foody-mobile-like-jpg-793-636142796929268126.jpg
++ OpenHour:09:00 AM 
++ CloseHour:10:30 PM
++ QuencherSpecialty: Cafe
+
+DRINKINGINDOOR
++ Address: 103 Ðô Ð?c L?c, P. Tân Quý, Qu?n Tân Phú, TP. HCM
++ Name: Home Made - Th?c U?ng & An V?t
++ ID: 11
++ AveragePrice: 20.000 d
++ AverageUserRating: 6.0
++ Wifi:  không
++ AverageServedTime: 30 phút
++Bitmap: https://media.foody.vn/res/g28/278338/prof/s480x300/foody-mobile-kdsevtav-jpg-886-636111925886448023.jpg
++ OpenHour: 08:00 AM 
++ CloseHour:09:00 PM
+
+TAKEAWAY
++ Address: 256 Nguy?n Th? Minh Khai, phu?ng 6, Qu?n 3, H? Chí Minh
++ Name: Cà phê Take Away Bonjour 
++ ID: 12
++ AveragePrice: 45.000
++ AverageUserRating: 7.9
++ Wifi: có
++ AverageServedTime: 15 phút
++Bitmap:https://media.foody.vn/res/g1/4451/prof/s480x300/foody-mobile-bonjour-cafe-jpg-465-635846877577025367.jpg
++ OpenHour:9:00 AM
++ CloseHour: 9:00 PM
+
+BOARDGAME
++ Address: 2 Công Xã Paris, P. B?n Nghé, Qu?n 1, TP. HCM
++ Name: McDonald's - Buu Ði?n Thành Ph?
++ ID: 13
++ AveragePrice: 100.000 d
++ AverageUserRating: 8.0
++ Wifi: có
++ AverageServedTime: 10 phút
++Bitmap: https://media.foody.vn/res/g21/209424/prof/s480x300/foody-mobile-foody-checkin-mc-don-643-635900295249633128.jpg
++ OpenHour: 12:00 AM
++ CloseHour: 9:00 PM
++ GameType: Ma sói, Rút g?
++ AverageRentPerHour: 30.000 d

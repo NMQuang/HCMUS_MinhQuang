@@ -1,0 +1,101 @@
+CREATE TABLE `locationdb` (
+	`Address`	TEXT NOT NULL,
+	`Name`	TEXT NOT NULL,
+	`ID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`AveragePrice`	REAL,
+	`AverageUserRating`	REAL,
+	`Wifi`	TEXT,
+	`AverageServedTime`	TEXT,
+	`Bitmap`	BLOB,
+	`OpenHour` TEXT,
+	`CloseHour` TEXT
+);
+
+------------------------------------------------------
+CREATE TABLE `eatingdb` (
+	`ID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`FoodSpecialty`	TEXT,
+	FOREIGN KEY(`ID`) REFERENCES locationdb(ID)
+);
+
+
+
+CREATE TABLE `eatingindoordb` (
+	`ID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	FOREIGN KEY(`ID`) REFERENCES eatingdb(ID)
+);
+
+CREATE TABLE `restaurantdb` (
+	`ID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`Star`	INTEGER,
+	`Cuisine`	TEXT,
+	`LeadChef`	TEXT,
+	`Tips`	TEXT,
+	FOREIGN KEY(`ID`) REFERENCES eatingindoordb(ID)
+);
+
+CREATE TABLE `localdb` (
+	`ID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	FOREIGN KEY(`ID`) REFERENCES eatingindoordb(ID)
+);
+
+CREATE TABLE `pubdb` (
+	`ID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`Berverage`	TEXT,
+	`SpecialAcitivity`	TEXT,
+	FOREIGN KEY(`ID`) REFERENCES localdb(ID)
+);
+
+CREATE TABLE `snackdb` (
+	`ID`	INTEGER NOT NULL,
+	FOREIGN KEY(`ID`) REFERENCES localdb(ID)
+);
+
+
+CREATE TABLE `fastfooddb` (
+	`ID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`DeliveryTime`	TEXT,
+	`SpecialDay`	TEXT,
+	FOREIGN KEY(`ID`) REFERENCES eatingindoordb(ID)
+);
+
+
+CREATE TABLE `eatingoutdoordb` (
+	`ID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`CurrentWeather`	TEXT,
+	FOREIGN KEY(`ID`) REFERENCES eatingdb(ID)
+);
+
+CREATE TABLE `fixedeatinglocationdb` (
+	`ID`	INTEGER NOT NULL ,
+	FOREIGN KEY(`ID`) REFERENCES eatingoutdoordb(ID)
+);
+
+CREATE TABLE `eatinglocationdb` (
+	`ID`	INTEGER NOT NULL ,
+	FOREIGN KEY(`ID`) REFERENCES eatingoutdoordb(ID)
+);
+
+
+---------------------------------------------------------
+CREATE TABLE `drinkingdb` (
+	`ID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`QuencherSpecialty`	TEXT,
+	FOREIGN KEY(`ID`) REFERENCES locationdb(ID)
+);
+
+CREATE TABLE `drinkingindoordb` (
+	`ID`	INTEGER NOT NULL,
+	FOREIGN KEY(`ID`) REFERENCES drinkingdb(ID)
+);
+CREATE TABLE `takeawaydb` (
+	`ID`	INTEGER NOT NULL,
+	FOREIGN KEY(`ID`) REFERENCES drinkingindoordb(ID)
+);
+CREATE TABLE `boardgamedb` (
+	`ID`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`GameType`	TEXT,
+	`AverageRentPerHour`	INTEGER,
+	FOREIGN KEY(`ID`) REFERENCES drinkingindoordb(ID)
+);
+

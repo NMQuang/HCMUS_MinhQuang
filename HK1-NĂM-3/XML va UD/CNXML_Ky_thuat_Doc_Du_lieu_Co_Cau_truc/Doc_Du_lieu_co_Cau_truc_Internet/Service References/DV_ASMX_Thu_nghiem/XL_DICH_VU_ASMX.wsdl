@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Doc_Du_lieu">
+        <s:complexType />
+      </s:element>
+      <s:element name="Doc_Du_lieuResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Doc_Du_lieuResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Doc_Du_lieuSoapIn">
+    <wsdl:part name="parameters" element="tns:Doc_Du_lieu" />
+  </wsdl:message>
+  <wsdl:message name="Doc_Du_lieuSoapOut">
+    <wsdl:part name="parameters" element="tns:Doc_Du_lieuResponse" />
+  </wsdl:message>
+  <wsdl:portType name="XL_DICH_VU_ASMXSoap">
+    <wsdl:operation name="Doc_Du_lieu">
+      <wsdl:input message="tns:Doc_Du_lieuSoapIn" />
+      <wsdl:output message="tns:Doc_Du_lieuSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="XL_DICH_VU_ASMXSoap" type="tns:XL_DICH_VU_ASMXSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Doc_Du_lieu">
+      <soap:operation soapAction="http://tempuri.org/Doc_Du_lieu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="XL_DICH_VU_ASMXSoap12" type="tns:XL_DICH_VU_ASMXSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Doc_Du_lieu">
+      <soap12:operation soapAction="http://tempuri.org/Doc_Du_lieu" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="XL_DICH_VU_ASMX">
+    <wsdl:port name="XL_DICH_VU_ASMXSoap" binding="tns:XL_DICH_VU_ASMXSoap">
+      <soap:address location="http://localhost:7751/XL_DICH_VU_ASMX.asmx" />
+    </wsdl:port>
+    <wsdl:port name="XL_DICH_VU_ASMXSoap12" binding="tns:XL_DICH_VU_ASMXSoap12">
+      <soap12:address location="http://localhost:7751/XL_DICH_VU_ASMX.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

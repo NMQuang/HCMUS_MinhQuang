@@ -1,0 +1,18 @@
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\UNG_DUNG_WEB\bin\UNG_DUNG_WEB.dll.config
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\UNG_DUNG_WEB\bin\UNG_DUNG_WEB.dll
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\UNG_DUNG_WEB\bin\UNG_DUNG_WEB.pdb
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\UNG_DUNG_WEB\obj\Debug\UNG_DUNG_WEB.csprojResolveAssemblyReference.cache
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\UNG_DUNG_WEB\obj\Debug\UNG_DUNG_WEB.dll
+D:\HK1-NĂM 3\XML va UD\CS_CNXML_Thanh_phan_Luu_tru_Minh_hoa_Ky_thuat\UNG_DUNG_WEB\obj\Debug\UNG_DUNG_WEB.pdb
+D:\HK1-NĂM 3\XML va UD\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\bin\UNG_DUNG_WEB.dll.config
+D:\HK1-NĂM 3\XML va UD\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\bin\UNG_DUNG_WEB.dll
+D:\HK1-NĂM 3\XML va UD\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\bin\UNG_DUNG_WEB.pdb
+D:\HK1-NĂM 3\XML va UD\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\obj\Debug\UNG_DUNG_WEB.csprojResolveAssemblyReference.cache
+D:\HK1-NĂM 3\XML va UD\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\obj\Debug\UNG_DUNG_WEB.dll
+D:\HK1-NĂM 3\XML va UD\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\obj\Debug\UNG_DUNG_WEB.pdb
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\bin\UNG_DUNG_WEB.dll.config
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\bin\UNG_DUNG_WEB.dll
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\bin\UNG_DUNG_WEB.pdb
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\obj\Debug\UNG_DUNG_WEB.csprojResolveAssemblyReference.cache
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\obj\Debug\UNG_DUNG_WEB.dll
+E:\DO_AN_CUOI_CUNG\SOURCE CODE\UNG_DUNG_WEB\obj\Debug\UNG_DUNG_WEB.pdb
